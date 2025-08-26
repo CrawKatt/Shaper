@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "shaper",
+  "version": "${version}",
+  "name": "Shaper",
+  "description": "",
+  "authors": [
+    "Vowxky"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "ARR",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shaper.fabric.ShaperModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=9.1.12"
+  }
+}
