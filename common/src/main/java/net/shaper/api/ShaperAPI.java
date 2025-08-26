@@ -34,7 +34,7 @@ public final class ShaperAPI {
         CACHE.put(id, shape);
     }
 
-    private static VoxelShape parseBoxes(JsonArray arr) {
+    public static VoxelShape parseBoxes(JsonArray arr) {
         VoxelShape out = Shapes.empty();
         for (JsonElement el : arr) {
             if (!el.isJsonArray()) continue;
